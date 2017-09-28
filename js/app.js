@@ -3,178 +3,128 @@ console.log('hello');
 var students = [
   {
     name: 'Khasper Balisacan',
-    github:'https://github.com/khasperbali/',
     github_username:'khasperbali',
-    medium: 'https://medium.com/@khasperbali',
     medium_username: '@khasperbali'
   },
   {
     name: 'Angelo Barangan',
-    github:'https://github.com/AAngeloB',
     github_username:'AAngeloB',
-    medium: 'https://medium.com/@asvpangelob',
     medium_username: '@asvpangelob'
   },
   {
     name: 'Aragon Bernard',
-    github:'https://github.com/keyen331/',
-    github_username:'keyen331',
-    medium: 'https://medium.com/@aragonbernard808',
+    github_username:'sty.maxxy',
     medium_username: '@aragonbernard808'
   },
   {
     name: 'Jarren Calizo',
-    github:'https://github.com/AOE-Dylan',
-    github_username:'AOE-Dylan',
-    medium: 'https://medium.com/@Dylaaaaan',
-    medium_username: 'Dylaaaaan'
+    github_username:'AlohaJarren',
+    medium_username: '@calizo.jarren'
   },
   {
     name: 'Jeraldy Cascayan',
-    github:'https://github.com/zakattack9',
-    github_username:'zakattack9',
-    medium: 'https://medium.com/@zak.s_'
+    github_username:'c0p',
+    medium_username: '@jeraldydcascayan'
   },
   {
     name: 'Jeriel Cauton',
-    journal: 'https://madikawakami.github.io/journal/',
-    github:'https://github.com/madikawakami',
-    github_username: 'madikawakami',
-    medium: 'https://medium.com/@19madami',
-    medium_username: '19madami'
+    github_username: 'PocketTaCo',
+    medium_username: '@jerielcauton29'
   },
   {
     name: 'Miguel Delacruz',
-    github:'https://github.com/xXxYoLoSwAgxXx',
-    github_username: 'xXxYoLoSwAgxXx',
-    medium: 'https://medium.com/@harrisfambam',
-    medium_username: 'harrisfambam'
+    github_username: 'MiguelDelacruz',
+    medium_username: '@delacruzsmiguel'
   },
   {
     name: 'John Espiritu',
-    github:'https://github.com/Corneliousm808',
     github_username: 'Corneliousm808',
-    medium: 'https://medium.com/@corn808',
     medium_username: 'corn808'
   },
   {
     name: 'Taylor Fujimoto',
-    github:'https://github.com/Yoscroll',
-    github_username: 'Yoscroll',
-    medium: 'https://medium.com/@ianhacosta',
-    medium_username: 'ianhacosta'
+    github_username: 'taytayfujif',
+    medium_username: '@taytayfujif'
   },
   {
     name: 'Laron Gibson',
-    github:'https://github.com/heeyjessii',
-    github_username: 'heeyjessii',
-    medium: 'https://medium.com/@11lopez.jessica',
-    medium_username: '11lopez.jessica'
+    github_username: 'SilverNeko21',
+    medium_username: '@Silver'
   },
   {
     name: 'Jacob Harris',
-    github:'https://github.com/MarkIsNotTaken',
-    github_username: 'MarkIsNotTaken',
-    medium: 'https://medium.com/@Segnis',
-    medium_username: 'Segnis'
+    github_username: 'jakes2020',
+    medium_username: '@19jacris'
   },
   {
     name: 'Elliah Herradura',
-    github:'https://github.com/ageronimo',
-    github_username: 'ageronimo',
-    medium: 'https://medium.com/@angelageroniimo',
-    medium_username: 'angelageroniimo'
+    github_username: 'ElliahSon',
+    medium_username: '@elliahson'
   },
   {
     name: 'Keegan Kolbeinsen',
-    github:'https://github.com/kylelingat',
-    github_username: 'kylelingat',
-    medium: 'https://medium.com/@kylejlingat',
-    medium_username: 'kylejlingat'
+    github_username: 'keegan18',
+    medium_username: '@kolbeinsen.tafaoa'
   },
   {
     name: 'Anghelo Macha',
-    github:'https://github.com/Jomos1',
-    github_username: 'Jomos1',
-    medium: 'https://medium.com/@Jomos',
-    medium_username: 'Jomos'
+    github_username: 'AngheloM',
+    medium_username: '@macha.anghelo'
   },
   {
     name: 'Kelii McCrary',
-    github:'https://github.com/JustBacon',
-    github_username: 'JustBacon',
-    medium: 'https://medium.com/@JustBacon',
-    medium_username: 'JustBacon',
+    github_username: 'WildcherryBazzaire',
+    medium_username: '@eieghtbitdolphin',
   },
   {
     name: 'Jameson Miyashiro',
-    github:'https://github.com/Sen2017',
-    github_username: 'Sen2017',
-    medium: 'https://medium.com/@S3N.CA5',
-    medium_username: 'S3N.CA5'
+    github_username: 'jameson141',
+    medium_username: '@jamesonmiyashiro'
   },
   {
     name: 'Logan Moniz',
-    github:'https://github.com/GwenRaq',
-    github_username: 'GwenRaq',
-    medium: 'https://medium.com/@gwen.raq',
-    medium_username: 'gwen.raq'
+    github_username: 'lmoniz01',
+    medium_username: '@honowai.lmoniz01'
   },
   {
     name: 'Jordan Muraoka',
-    github:'https://github.com/zedricka',
-    github_username: 'zedricka',
-    medium: 'https://medium.com/@zedrick.ara',
-    medium_username: 'zedrick.ara'
+    github_username: 'Aoiryuu',
+    medium_username: '@19joroka'
   },
   {
     name: 'Marvin Pilar',
-    github:'https://github.com/ImTeqoo',
-    github_username: 'ImTeqoo',
-    medium: 'https://medium.com/@Chocomuffffin',
-    medium_username: 'Chocomuffffin'
+    github_username: 'Marvkuroway',
+    medium_username: '@Skidzay'
   },
   {
     name: 'Rodelio Ponce',
-    github:'https://github.com/PsionicBeats',
-    github_username: 'PsionicBeats',
-    medium: 'https://medium.com/@psionicbeats',
-    medium_username: 'psionicbeats'
+    github_username: 'gawigwen',
+    medium_username: '@rodnce'
   },
   {
     name: 'Kengo Raganit',
-    github:'https://github.com/WildcherryBazzaire',
-    github_username: 'WildcherryBazzaire',
-    medium: 'https://medium.com/@eieghtbitdolphin',
-    medium_username: 'eieghtbitdolphin'
+    github_username: 'KengoRag',
+    medium_username: '@19kennit'
   },
   {
     name: 'Daniel Ranada',
-    github:'https://github.com/WildcherryBazzaire',
-    github_username: 'WildcherryBazzaire',
-    medium: 'https://medium.com/@eieghtbitdolphin',
-    medium_username: 'eieghtbitdolphin'
+    github_username: 'KingKamui',
+    medium_username: '@KingKamui'
   }, 
   {
     name: 'Richard Ribucan',
-    github:'https://github.com/WildcherryBazzaire',
-    github_username: 'WildcherryBazzaire',
-    medium: 'https://medium.com/@eieghtbitdolphin',
-    medium_username: 'eieghtbitdolphin'
+    github_username: 'richardribucanperales',
+    medium_username: '@richardribucanperales'
   },
   {
     name: 'Evan Sugiyama',
-    github:'https://github.com/WildcherryBazzaire',
     github_username: 'WildcherryBazzaire',
-    medium: 'https://medium.com/@eieghtbitdolphin',
     medium_username: 'eieghtbitdolphin'
   },
   {
     name: 'Timoteo Sumalinog',
-    github:'https://github.com/WildcherryBazzaire',
-    github_username: 'WildcherryBazzaire',
-    medium: 'https://medium.com/@eieghtbitdolphin',
-    medium_username: 'eieghtbitdolphin'
+    github_username: 'TimsTomatos',
+    medium_username: '@imshiny808'
   },
   {
     name: 'Zak Sakata',
@@ -199,15 +149,14 @@ var students = [
 
 
 students.forEach(function( person ) {
-  var student = $(
-    '<div class="student">' +
-      '<h3>'+ person.name +'</h3>' +
-      '<div class="link_list">' +
-        '<ul>' +
-          '<li><a href="'+ person.github +'">Github: '+ person.github_username +'</a></li>'+
-          '<li><a href="'+ person.medium +'">Medium: '+ person.medium_username +'</a></li>' +
-        '</ul>' +
-      '</div>' +
-    '</div>'
-    ).appendTo('.students');
+  $('.students').append(
+  `<div class="student">
+    <h3>${person.name}</h3>
+    <div class="link_list">
+      <ul>
+        <li><a href="https://github.com/${person.github_username}">${'Github: ' + person.github_username}</a></li>
+        <li><a href="https://medium.com/${person.medium_username}">${'Medium: ' + person.medium_username}</a></li>
+      </ul>
+    </div>
+  </div>`)
 });
