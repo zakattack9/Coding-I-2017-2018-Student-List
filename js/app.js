@@ -1,5 +1,4 @@
 // List of Students
-console.log('hello');
 var students = [
   {
     name: 'Khasper Balisacan',
@@ -38,8 +37,8 @@ var students = [
   },
   {
     name: 'John Espiritu',
-    github_username: 'Corneliousm808',
-    medium_username: 'corn808'
+    github_username: 'John7x',
+    medium_username: '@johnespiritu.7x'
   },
   {
     name: 'Taylor Fujimoto',
@@ -49,7 +48,7 @@ var students = [
   {
     name: 'Laron Gibson',
     github_username: 'SilverNeko21',
-    medium_username: '@Silver'
+    medium_username: '@larong2122'
   },
   {
     name: 'Jacob Harris',
@@ -99,7 +98,7 @@ var students = [
   {
     name: 'Rodelio Ponce',
     github_username: 'gawigwen',
-    medium_username: '@rodnce'
+    medium_username: '@19rodnce'
   },
   {
     name: 'Kengo Raganit',
@@ -109,7 +108,7 @@ var students = [
   {
     name: 'Daniel Ranada',
     github_username: 'KingKamui',
-    medium_username: '@KingKamui'
+    medium_username: '@ancientdragonkingofvalla'
   }, 
   {
     name: 'Richard Ribucan',
@@ -118,8 +117,8 @@ var students = [
   },
   {
     name: 'Evan Sugiyama',
-    github_username: 'WildcherryBazzaire',
-    medium_username: 'eieghtbitdolphin'
+    github_username: 'Astrocat2374',
+    medium_username: ''
   },
   {
     name: 'Timoteo Sumalinog',
@@ -128,22 +127,12 @@ var students = [
   },
   {
     name: 'Zak Sakata',
-    journal: 'https://zakattack9.github.io/Journal/',
-    github:'https://github.com/zakattack9',
     github_username:'zakattack9',
-    medium: 'https://medium.com/@zak.s_',
-    medium_username: 'zak.s_',
-    project: 'https://github.com/junior-devleague/safe',
-    final_project: 'Safe'
+    medium_username: '@zak.s_',
   },
   {
     name: 'No-Internet',
-    github:'https://github.com/zakattack9',
-    github_username:'zakattack9',
-    medium: 'https://medium.com/@zak.s_',
-    medium_username: 'zak.s_',
-    project: 'https://github.com/junior-devleague/safe',
-    final_project: 'Safe'
+    github_username:'No-Internet',
   }
 ];
 
@@ -160,3 +149,19 @@ students.forEach(function( person ) {
     </div>
   </div>`)
 });
+
+
+//Methods to Change Zak's Info
+let zak = $('.student .link_list ul').eq(students.length - 2).append(`<li><a href="https://junior-devleague.github.io/safe/">Final Project: SAFE</a></li>`);
+let zakAnim = $('.student').eq(students.length - 2).attr('id', 'zak');
+console.log(zak[0])
+
+//Methods to Add Specific Info for No-Internet
+let addID = $('.student').last().attr('id', 'no-internet');
+let lastStudent = $('.student .link_list ul').last().children().first().children().attr("href", "https://github.com/HACC17/No-Internet");
+let noInternetMembers = $('.student .link_list ul').last().children().eq(1).children().text("Members: Zak, Ian, Angela, Dylan, Zedrick");
+let changeLink = $('.student .link_list ul').last().children().eq(1).children().attr("href", "https://hacc17.github.io/No-Internet/html/about.html");
+let addFinalProj = $('.student .link_list ul').last().append(`<li><a href="https://hacc17.github.io/No-Internet/">Project: DAIZZY</a></li>`);
+
+
+
