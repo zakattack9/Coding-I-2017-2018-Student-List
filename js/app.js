@@ -12,7 +12,7 @@ var students = [
   },
   {
     name: 'Aragon Bernard',
-    github_username:'sty.maxxy',
+    github_username:'Stymaxxy',
     medium_username: '@aragonbernard808'
   },
   {
