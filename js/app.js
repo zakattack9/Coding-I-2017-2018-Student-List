@@ -118,7 +118,7 @@ var students = [
   {
     name: 'Evan Sugiyama',
     github_username: 'Astrocat2374',
-    medium_username: ''
+    medium_username: '@sugiyama.evan'
   },
   {
     name: 'Timoteo Sumalinog',
