@@ -162,6 +162,3 @@ let lastStudent = $('.student .link_list ul').last().children().first().children
 let noInternetMembers = $('.student .link_list ul').last().children().eq(1).children().text("Members: Zak, Ian, Angela, Dylan, Zedrick");
 let changeLink = $('.student .link_list ul').last().children().eq(1).children().attr("href", "https://hacc17.github.io/No-Internet/html/about.html");
 let addFinalProj = $('.student .link_list ul').last().append(`<li><a href="https://hacc17.github.io/No-Internet/">Project: DAIZZY</a></li>`);
-
-
-

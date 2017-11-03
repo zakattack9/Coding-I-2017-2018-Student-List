@@ -1,0 +1,225 @@
+html, body {
+  font-size: 13px;
+  font-family: 'Oxygen', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+header h1:active {
+  transform: rotate3d(1, -1, 1, 720deg);
+  transition: 0.5s;
+}
+
+#logo {
+  z-index: -1;
+  display: block;
+  position: fixed;
+  width: 70%;
+  top: 8%;
+  left: 15%;
+  opacity: 0.3;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Russo One', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid #000;
+}
+
+header h1 {
+  text-align: center;
+  color: #162B40;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  display: -webkit-flex;
+  display: ms-flexbox;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+.student {
+  /*background-color: salmon;*/
+  border: 1px solid #344251;
+  margin: 5px;
+  flex: 1 1 30%;
+  /*width: 30%;*/
+  /*float: left;*/
+  transition: 0.2s;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.student:hover {
+  /*background-color: ;*/
+  transform: scale(1.02, 1.02);
+  transition: 0.2s;
+  background-color: #f7f7f7;
+}
+
+.student h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #EFBA1A;
+}
+
+.link_list{
+  border-top: solid #ccc 1px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.link_list ul {
+  padding: 0;
+}
+
+.link_list ul li{
+  padding: 5px;
+}
+
+a {
+  color: darkblue;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #162B40;
+  transition: 0.3s;
+  font-size: 12.5px;
+}
+
+footer {
+  width: 84%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#repoLink {
+  color: black;
+}
+
+#repoLink:hover {
+  color: gray;
+  font-size: 1.01em;
+}
+
+/*.clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+ }
+.clearfix { display: inline-block; }*/
+/* start commented backslash hack \*/
+/** html .clearfix { height: 1%; }
+.clearfix { display: block; }*/
+/* close commented backslash hack */
+
+
+#zak {
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  animation: rainbow 18s ease infinite;
+}
+
+#zak .link_list ul li a:hover {
+  color: white;
+}
+
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+#zak h3 {
+  color: hsl(0, 100%, 50%);
+  animation: rainbowText 5s infinite alternate;
+}
+
+@keyframes rainbowText {
+  0% {color: hsl(0, 100%, 50%);}
+  100% {color: hsl(255, 100%, 50%);}
+}
+
+
+#no-internet h3{
+  color: black;
+  position: relative;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+  -webkit-animation: bounce .3s ease infinite alternate;
+}
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -3px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 30px 30px rgba(0, 0, 0, .3);
+  }
+}
+
+#no-internet {
+  background: linear-gradient(0deg, #ffffff, #007e9f, #344251, #ffffff, #667282);
+  background-size: 800% 800%;
+  animation: ambientBackground 30s ease infinite;
+}
+
+@keyframes ambientBackground { 
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}
+
+#no-internet .link_list ul li a:hover {
+  color: white;
+}
+
+/*#no-internet .link_list ul li a{
+  background: linear-gradient(2deg, #d64242, #e9a526, #eaeb1f, #20da65, #20c3da, #935fe1);
+  background-size: 1200% 1200%;
+  animation: noInternetText 30s ease infinite;
+}
+
+@keyframes noInternetText {
+  0%{background-position:51% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:51% 0%}
+}*/
